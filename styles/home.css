@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-bottom {
+  position: absolute;
+	font-size:3em;
+	font-family: Elephant;
+  bottom: 8px;
+  left: 16px;
+}
+.picture{
+  display: flex;
+  position: relative;
+  top:40px;
+  width:90%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0;
+}
+.picture-item{
+  width:31%;
+  padding:5px;
+  padding-bottom: 0;
+}
+.picture img{
+  width:100%;
+  height: 300px;
+}
+.centered{
+  position: relative;
+  bottom:200px;
+  color:white;
+  font-family: Elephant;
+  font-size: 2.5em;
+}

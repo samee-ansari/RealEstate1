@@ -1,0 +1,32 @@
+body{
+    background: #FFEBCD;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin: auto;
+    font-family: Bookman Old Style;
+}
+.one, .two, .three{
+    display: flex;
+    padding:20px;
+}
+#pic{
+    width:40%;
+    height: 10%;
+    align-self: center;
+    padding-left: 40px;
+}
+h1, h2{
+    color:#9900cc;
+    font-family: Bookman Old Style;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 2em;
+}

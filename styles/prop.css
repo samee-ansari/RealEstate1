@@ -1,0 +1,27 @@
+main{
+   display: flex;
+   flex-direction: column;
+   font-family: Bookman Old Style;
+}
+.ranch, .apartments ,.commercial{
+    display: flex;
+    text-align: center;
+    width:100%;
+}
+.description{
+    width: 33%;
+    font-size: 1.5em;
+}
+.description-img{
+    width:80%;
+}
+h1, h2 {
+    text-align: center;
+    padding:20px;
+}
+h1{
+    font-size: 3.1em;
+}
+h2{
+    font-size: 2.2em;
+}

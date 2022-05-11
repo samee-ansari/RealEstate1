@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>Real Estate-Mohammed Ansari</title>
+
+    <script type="text/javascript">
+        var background = "#f0f0f5";
+
+        var text = "black";
+
+        var URL = "home.html";
+
+        var speed = 4000; // time in milliseconds (4000 = 4 seconds)
+
+        var msgcount = 5;
+
+        var i = 1;
+
+        var blank = " ";
+
+        function StringArray(n) {
+
+            this.length = n;
+
+            for (var x = 1; x <= n; x++) {
+
+                this[x] = ' ';
+
+            }
+
+        }
+
+        message = new StringArray(msgcount);
+
+        message[1] = "Looking for your dream home.....";
+
+        message[2] = "We will help you find it...";
+
+        message[3] = "With staff dedicated to fulfil your needs..";
+
+        message[4] = "Real Estate Agency you can Trust.";
+
+        message[5] = "Welcome!";
+
+        function Slide() {
+
+            slidepage = '<body bgcolor=' + background + '>'
+
+            +
+            '<center><table border=0 '
+
+            +
+            'height=100%><tr><td><center><img src="images/logo.jpg"><br/><font size="30px;">Riverside Real Estate</font></center><center><br/><b><font '
+
+            +
+            'color=' + text + ' size=6>' + message[i] + '</font></b>'
+
+            +
+            '</td></tr></table></center>'
+
+            if (i == message.length + 1) parent.location = URL;
+
+            if (i < message.length + 1) {
+
+                frames['slideshow'].location = "javascript:parent.slidepage";
+
+                i++;
+
+                setTimeout("Slide()", speed);
+
+            }
+
+        }
+    </script>
+
+</head>
+
+<frameset border="2" rows="100%,*" onload="Slide()">
+
+    <frame name="slideshow" src="javascript:parent.blank">
+
+</frameset>
+
+</html>
