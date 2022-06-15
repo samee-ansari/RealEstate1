@@ -46,7 +46,7 @@ html{
   margin-left: auto;
   align-self: center;
 }
-.banner{
+header{
   display: flex;
   justify-content: flex-start;
   background-color: #f0f0f5;
