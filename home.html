@@ -9,18 +9,18 @@
 
 <body>
     <header>
-        <nav class="topnav">
+        <div class="topnav">
             <img src="images/logo.jpg">
-            <nav class="yo">
+            <nav class="heading">
                 <font size="14" color="#9900cc">Riverside </font><br />
                 <font size="6" color="#00e6ac">Real Estate Agency</font><br />
             </nav>
-        </nav>
+        </div>
         <div class="location">
-            1600 E. Golf Avenue
+            <p aria-label="Agency Location">1600 E. Golf Avenue</p>
         </div>
     </header>
-    <div class="navigation">
+    <div class="navigation" role="presentation">
         <a class="home" href="home.html">Home</a>
         <a href="prop.html">Properties</a>
         <a href="mortgage.html">Mortgage Calculator</a>
@@ -28,23 +28,23 @@
         <a href="contact.html">Contact Us</a>
     </div>
     <div class="container">
-        <img src="images/HOUSE.jpg" style="width:100%;">
+        <img src="images/HOUSE.jpg" alt="Million dollar house bright lights, has pool attached" style="width:100%;">
         <div class="img-bottom">A Real Estate Name<br />You can Trust</div>
     </div>
-    <div class="picture">
-        <div class="picture-item">
-            <a href="mortgage.html"><img src="images/analysis1.jpg"></a>
+    <section class="picture">
+        <aside class="picture-item">
+            <a href="mortgage.html"><img src="images/analysis1.jpg" alt="3 houses ascending order based on height depicting market price increase"></a>
             <div class="centered">Free Market<br />Analysis</div>
-        </div>
-        <div class="picture-item">
-            <a href="Contact.html"><img src="images/consultation1.jpg"></a>
+        </aside>
+        <aside class="picture-item">
+            <a href="Contact.html"><img src="images/consultation1.jpg" alt="Picture of a discussion between two individuals"></a>
             <div class="centered">Real Estate<br />Consultation</div>
-        </div>
-        <div class="picture-item">
-            <a href="prop.html"><img src="images/sale1.jpg"></a>
+        </aside>
+        <aside class="picture-item">
+            <a href="prop.html"><img src="images/sale1.jpg" alt="Apartment on top floor of a building big windows and circular staircase in living room"></a>
             <div class="centered">Properties<br />For Sale</div>
-        </div>
-    </div>
+        </aside>
+    </section>
     <footer>
         <div class="part1">
             <div class="more-info">
@@ -65,7 +65,7 @@
                 appreciate your
                 trust in us and we look
                 forward to serving you.
-                <div class="icons">
+                <div class="icons" role="presentation">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-google"></a>
@@ -73,10 +73,10 @@
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
             </div>
-            <div class="border"></div>
+            <div class="border" role="presentation"></div>
             <div class="connect">
                 <h3 id="five">Get in Touch:</h3>
-                <p>Office: 894-339-4343</p>
+                <p aria-label="Phone number">Office: 894-339-4343</p>
 
                 <p>Direct: 434-434-2345</p>
                 <p>Fax: 847-635-1600</p>
@@ -93,7 +93,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
         <br />
-        <p id="copy">
+        <p id="copy" role="contentinfo">
             <center>
                 <font size="2">
                     &copy;MSA 2018, Illinois Riverside Real Estate Group. All rights reserved | Real Estate Website
