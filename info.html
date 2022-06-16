@@ -8,28 +8,28 @@
 
 <body>
     <header>
-        <div class="topnav">
-            <img src="images/logo.jpg">
-            <nav class="yo">
+        <div class="topnav" role="presentation">
+            <img src="images/logo.jpg" alt="image that resembles the rook on a chessboard">
+            <div class="heading">
                 <font size="14" color="#9900cc">Riverside </font><br />
                 <font size="6" color="#00e6ac">Real Estate Agency</font><br />
-            </nav>
+            </div>
         </div>
         <div class="location">
-            1600 E. Golf Avenue
+            <p aria-label="Agency Location">1600 E. Golf Avenue</p>
         </div>
     </header>
     <nav class="navigation">
-        <a href="home.html">Home</a>
+        <a class="home" href="home.html">Home</a>
         <a href="prop.html">Properties</a>
         <a href="mortgage.html">Mortgage Calculator</a>
-        <a class="home" href="info.html">About Us</a>
+        <a href="info.html">About Us</a>
         <a href="contact.html">Contact Us</a>
     </nav>
     <h1>Meet Our Team</h1>
-    <div class="team">
-        <h2>Joe Kelley</h2>
-        <div class="one">
+    <main class="team">
+        <h2 aria-label="Team member">Joe Kelley</h2>
+        <section class="one">
             <p>“Energetic. Passionate. Knowledgeable. All about the customer!”<br /> “I always believe the customers’
                 needs and concerns are my number one priority. My goal is to be available to my customers and to work
                 with their best interest in mind –
@@ -48,11 +48,11 @@
                 sales and leasing know-how. If you are thinking about building a home Joe has assisted clients in all of
                 the phases from working with architects, design, construction and right to closing.
             </p>
-            <img id="pic" src="images/joe.jpg">
-        </div>
+            <img id="pic" src="images/joe.jpg" alt="Joe Kelly sitting on a desk and smiling at the camera">
+        </section>
         </br />
-        <h2>Christine Katzer</h2>
-        <div class="two">
+        <h2 aria-label="Team member">Christine Katzer</h2>
+        <section class="two">
             <p>“Smart. Compassionate. Professional. Diligent. Incredibly knowledgeable.” Christine Katzer, co-owner of
                 Kelley and Katzer Real Estate embodies what a great realtor should be – she is sharp, instinctive,
                 caring and possesses an extraordinary
@@ -74,11 +74,11 @@
                 and I want my customers to know they can rely on me to listen, understand and work hard to meet their
                 needs. I want to take the burden off their shoulders….”
             </p>
-            <img id="pic" src="images/chris.jpg">
-        </div>
+            <img id="pic" src="images/chris.jpg" alt="A headshot photo of Christine smiling">
+        </section>
         <br />
-        <h2>Eric Cassidy</h2>
-        <div class="three">
+        <h2 aria-label="Team member">Eric Cassidy</h2>
+        <section class="three">
             <p>“Motivated. Driven. Energetic and focused on always going above and beyond” Eric Cassidy, a member of the
                 Kelley and Katzer Real Estate LLC team, brings boundless enthusiasm, energy and passion to his role. He
                 understands the market, the economics
@@ -103,12 +103,12 @@
                 to
                 take a seemingly complicated process and make it not only understandable but profitable as well.”
             </p>
-            <img id="pic" src="images/eric.jpg">
-        </div>
-    </div>
+            <img id="pic" src="images/eric.jpg" alt="Headshot of Eric smiling">
+        </section>
+    </main>
     <footer>
         <div class="part1">
-            <div class="more-info">
+            <section class="more-info">
                 <h3 id="four">Riverside Real Estate Agency: </h3>
                 It is with great pleasure that we welcome you to Riverside RealEstate. With over 25 years of
                 combined real
@@ -126,24 +126,24 @@
                 appreciate your
                 trust in us and we look
                 forward to serving you.
-                <div class="icons">
+                <div class="icons" role="presentation">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-google"></a>
                     <a href="#" class="fa fa-youtube"></a>
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
-            </div>
-            <div class="border"></div>
-            <div class="connect">
+            </section>
+            <div class="border" role="presentation"></div>
+            <section class="connect">
                 <h3 id="five">Get in Touch:</h3>
-                <p>Office: 894-339-4343</p>
+                <p aria-label="Phone number">Office: 894-339-4343</p>
 
                 <p>Direct: 434-434-2345</p>
                 <p>Fax: 847-635-1600</p>
                 <p>Email: <a href="mailto:riverside@river.com:">
                         river@riverside.com</a>.</p>
-            </div>
+            </section>
             <br /><br /></br>
         </div>
         <nav class="bottom">
@@ -154,7 +154,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
         <br />
-        <p id="copy">
+        <p id="copy" aria-label="copyright info">
             <center>
                 <font size="2">
                     &copy;MSA 2018, Illinois Riverside Real Estate Group. All rights reserved | Real Estate Website
