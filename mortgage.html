@@ -9,15 +9,15 @@
 
 <body>
     <header>
-        <div class="topnav">
-            <img src="images/logo.jpg">
-            <nav class="yo">
+        <div class="topnav" role="presentation">
+            <img src="images/logo.jpg" alt="image that resembles the rook on a chessboard">
+            <div class="heading">
                 <font size="14" color="#9900cc">Riverside </font><br />
                 <font size="6" color="#00e6ac">Real Estate Agency</font><br />
-            </nav>
+            </div>
         </div>
         <div class="location">
-            1600 E. Golf Avenue
+            <p aria-label="Agency Location">1600 E. Golf Avenue</p>
         </div>
     </header>
     <nav class="navigation">
@@ -27,9 +27,9 @@
         <a href="info.html">About Us</a>
         <a href="contact.html">Contact Us</a>
     </nav>
-    <div class="container">
+    <section class="container">
             <h1>Why Use a Mortgage Calculator?</h1>
-            <p>When purchasing a new home, most buyers choose to finance a portion of the purchase price via the use of a mortgage. Prior to the wide availability of mortgage calculators, those wishing to understand the financial implications of changes
+            <p role="complementary">When purchasing a new home, most buyers choose to finance a portion of the purchase price via the use of a mortgage. Prior to the wide availability of mortgage calculators, those wishing to understand the financial implications of changes
         to the five main variables in a mortgage transaction were forced to use compound interest rate tables. These tables generally required a working understanding of compound interest mathematics for proper use. In contrast, mortgage calculators make
         answers to questions regarding the impact of changes in mortgage variables available to everyone. Mortgage calculators can be used to answer such questions as: If one borrows $250,000 at a 7% annual interest rate and pays the loan back over thirty
         years, with $3,000 annual property tax payment, $1,500 annual property insurance cost and 0.5% annual private mortgage insurance payment, what will the monthly payment be? The answer is $2,142.42. A potential borrower can use an online mortgage
@@ -37,22 +37,22 @@
         It can also factor in a potential mortgage payment and other associated housing costs (property taxes, homeownership dues, etc.). The typical mortgage calculator does not include costs like maintenance costs, refurbishment, landlord insurance,
         and other extra costs like service fees, property management costs, etc.[3] One can test different loan sizes and interest rates. Generally speaking, lenders do not like to see all of a borrower's debt payments (including property expenses) exceed
         around 40% of total monthly pretax income. Some mortgage lenders are known to allow as high as 55%.</p>
-    <br/>
-    <form action="">
+        <br/>
+        <form role="form">
         <label>APR%        : <input type="text" id="apr" name="APR"/></label><br/>
         <label>Loan Term: <input type="text" id="trm" placeholder="In years" name="APR"/></label></br>
         <label>Loan Amount: <input type="text" id="amt" name="amt"/></label></br>
         <label>Monthly Payment: <input type="text" id="pmt" name="mPmt" /></label><br>
         <input type="button" id="sbt" value="Submit" />
         <input type="reset" id="rst" value="Reset Form" />
-    </form>
+        </form>
  
-    <br/>
-    <img src="images/sale.jpg">
-    </div>
+        <br/>
+        <img src="images/sale.jpg" alt="Image of an apartment with floor-ceiling windows">
+    </section>
     <footer>
         <div class="part1">
-            <div class="more-info">
+            <section class="more-info">
                 <h3 id="four">Riverside Real Estate Agency: </h3>
                 It is with great pleasure that we welcome you to Riverside RealEstate. With over 25 years of
                 combined real
@@ -70,24 +70,24 @@
                 appreciate your
                 trust in us and we look
                 forward to serving you.
-                <div class="icons">
+                <div class="icons" role="presentation">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-google"></a>
                     <a href="#" class="fa fa-youtube"></a>
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
-            </div>
-            <div class="border"></div>
-            <div class="connect">
+            </section>
+            <div class="border" role="presentation"></div>
+            <section class="connect">
                 <h3 id="five">Get in Touch:</h3>
-                <p>Office: 894-339-4343</p>
+                <p aria-label="Phone number">Office: 894-339-4343</p>
     
                 <p>Direct: 434-434-2345</p>
                 <p>Fax: 847-635-1600</p>
                 <p>Email: <a href="mailto:riverside@river.com:">
                         river@riverside.com</a>.</p>
-            </div>
+            </section>
             <br /><br /></br>
         </div>
         <nav class="bottom">
@@ -98,7 +98,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
         <br />
-        <p id="copy">
+        <p id="copy" aria-label="copyright info">
             <center>
                 <font size="2">
                     &copy;MSA 2018, Illinois Riverside Real Estate Group. All rights reserved | Real Estate Website
